@@ -9,7 +9,6 @@ h1 {
     font-size: 14px;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
-
 main{
     height: 100vh;
     width: 80%;
@@ -18,13 +17,59 @@ main{
 #gameGround {
     height: 80vh;
     border: 1px solid indigo;
-    background-color: #fff;
+    background-color: rgb(134, 146, 185);
+}
+#cursor {
+    position: relative;
+    top: 50%;
+    left: 50%;
 }
 #gameControl {
+    padding: 0 1%;
     height: 14vh;
     background-color: #fff;
-    border: 1px solid violet;=
+    border: 1px solid violet;
 }
+#btnDiv{
+    width: 85%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+#btnDiv button{
+    width: 100%;
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(197, 54, 78);
+
+}
+#scoreDiv{
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 3px;
+}
+#score {
+    font-weight: bolder;
+}
+#settingDiv{
+    width: 100%;
+    padding: 3px;
+    float: left;
+}
+.pointerSpeed{
+    width: 20%;
+}
+.pointerSize{
+    width: 30%;
+    float: right;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 475px) {

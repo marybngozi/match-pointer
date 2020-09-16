@@ -10,10 +10,48 @@
     <main>
         <h1>Welcome to Catch Pointer</h1>
         <section id="gameGround">
-
+            <img src="img/icons/cursor.svg" id="cursor" alt="" width="18" height="18">
         </section>
         <section id="gameControl">
-            <div></div>
+            <div id="btnDiv">
+                <button id="startGame">Start Game</button>
+            </div>
+            <div id="settingDiv">
+                <div id="scoreDiv">
+                    <!-- scores div -->
+                    <span>Score: </span>
+                    <span id="score">0</span>
+                </div>
+                
+                <!-- settings div -->
+                <div class="pointerSpeed">
+                    <label for="pointerSpeed">Poniter Speed</label>
+                    <select name="" id="pointerSpeed">
+                        <option value="1.0">1.0</option>
+                        <option value="1.2">1.2</option>
+                        <option value="1.4">1.4</option>
+                        <option value="1.6">1.6</option>
+                        <option value="1.8">1.8</option>
+                        <option value="2.0">2.0</option>
+                        <option value="2.2">2.2</option>
+                        <option value="2.4">2.4</option>
+                        <option value="2.6">2.6</option>
+                        <option value="2.8">2.8</option>
+                    </select>
+                </div>
+
+                <div class="pointerSize"> 
+                    <label for="poniterSize">Poniter Size</label>   
+                    <select name="" id="pointerSize">
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                    </select>
+                </div>
+            </div>
         </section>
     </main>
     <script src="js/index.js"></script>
